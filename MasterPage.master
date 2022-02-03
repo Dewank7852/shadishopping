@@ -1,0 +1,208 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Shaadishoping.com</title>
+    <link rel=3D"icon" href=3D"images/start.ico" type=3D"image/x-icon" />
+<link rel=3D"shortcut icon" href=3D"images/start.ico" type=3D"image/=x-icon" />
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function DIV1_onclick() {
+
+}
+
+// ]]>
+</script>
+</head>
+<body style="background-color:#ffff66">
+    <form id="form1" runat="server" style="background-color:#ffff66">
+    <center>
+    <div>
+        <div id="DIV1" style="z-index: 101; left: 8px; width: 1183px; position: absolute;
+            top: 7px; height: 590px; background-color: #ffff66;" onclick="return DIV1_onclick()">
+            &nbsp;
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="648px" ImageUrl="~/images/left.jpg"
+                Style="z-index: 100; left: 6px; position: absolute; top: 202px" Width="212px" />
+            <asp:LinkButton ID="LinkButton4" runat="server" Font-Bold="True" Font-Italic="True"
+                Font-Names="Estrangelo Edessa" Font-Size="Large" Font-Underline="True" ForeColor="Maroon"
+                Style="z-index: 101; left: 48px; position: absolute; top: 504px" PostBackUrl="~/venues.aspx">Wedding Vanues</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" Font-Italic="True"
+                Font-Names="Estrangelo Edessa" Font-Size="Large" Font-Underline="True" ForeColor="Maroon"
+                Style="z-index: 102; left: 45px; position: absolute; top: 455px" PostBackUrl="~/planner.aspx">Wedding Planner</asp:LinkButton>
+            &nbsp;
+            <asp:LinkButton ID="LinkButton6" runat="server" Font-Bold="True" Font-Italic="True"
+                Font-Names="Estrangelo Edessa" Font-Size="Large" ForeColor="Maroon" PostBackUrl="~/indiafeast.aspx"
+                Style="z-index: 110; left: 53px; position: absolute; top: 600px">Wedding Feast</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="True" Font-Italic="True"
+                Font-Names="Estrangelo Edessa" Font-Size="Large" Font-Underline="True" ForeColor="Maroon"
+                Style="z-index: 104; left: 57px; position: absolute; top: 647px" PostBackUrl="~/barat.aspx">Indian Baraat</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Italic="True"
+                Font-Names="Estrangelo Edessa" Font-Size="Large" ForeColor="Maroon" PostBackUrl="~/Rituals.aspx"
+                Style="z-index: 105; left: 36px; position: absolute; top: 409px">Ritual and Customs</asp:LinkButton>
+            <asp:Panel ID="Panel1" runat="server" Height="188px" Style="z-index: 106; left: 7px;
+                position: absolute; top: 854px" Width="210px"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="210" height="190" id="tech" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="myalbum.swf" />
+		<param name="quality" value="high" />
+		<embed src="myalbum.swf" quality="high" width="640" height="480" name="tech" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+            </asp:Panel>
+            &nbsp;&nbsp;<br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/bb.JPG" Style="z-index: 107;
+                left: 983px; position: absolute; top: 238px" />
+            &nbsp;&nbsp;
+            <br />
+            <br />
+            <div style="z-index: 109; left: 4px; width: 1174px; position: absolute; top: 4px;
+                height: 197px">
+                <table style="width: 1172px; height: 27px">
+                    <tr>
+                        <td style="background-image: url(images/line.JPG); width: 100px">
+                        </td>
+                    </tr>
+                </table>
+                <table style="z-index: 102; left: 3px; width: 1170px; position: absolute; top: 167px;
+                    height: 27px">
+                    <tr>
+                        <td style="background-image: url(images/line.JPG); width: 100px">
+                        </td>
+                    </tr>
+                </table>
+                <asp:ImageButton ID="ImageButton2" runat="server" Height="137px" ImageUrl="~/images/vivah1.jpg"
+                    OnClick="ImageButton2_Click" Style="z-index: 100; left: 4px; position: absolute;
+                    top: 29px" Width="347px" />
+                <table style="z-index: 104; left: 355px; width: 815px; position: absolute; top: 142px">
+                    <tr>
+                        <td style="width: 100px; height: 21px;">
+                            <asp:Menu ID="Menu1" runat="server" BackColor="#FFFF80" BorderColor="#C00000" BorderStyle="Double"
+                                BorderWidth="2px" DynamicPopOutImageTextFormatString="Expand {3}" Font-Bold="False"
+                                ForeColor="#C00000" Height="20px" OnMenuItemClick="Menu1_MenuItemClick" Orientation="Horizontal"
+                                Style="z-index: 100; left: 0px; position: absolute; top: 3px" Width="815px">
+                                <DynamicHoverStyle BackColor="#C00000" BorderColor="#FFFF80" BorderStyle="Solid"
+                                    BorderWidth="2px" ForeColor="#FFFF80" />
+                                <DynamicMenuStyle BackColor="Yellow" BorderColor="#C00000" BorderStyle="Dashed" BorderWidth="2px" />
+                                <DynamicSelectedStyle BorderStyle="Groove" />
+                                <DynamicMenuItemStyle BackColor="#FFFF80" BorderColor="#C00000" BorderStyle="Solid"
+                                    BorderWidth="2px" ForeColor="#C00000" />
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" Value="Home">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/assesories.aspx" Text="Assesories" Value="Assesories">
+                                        <asp:MenuItem NavigateUrl="~/General.aspx" Text="General " Value="General "></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Bride.aspx" Text="Bride Special" Value="Bride Special">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Groom.aspx" Text="Groom Special" Value="Groom Special">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Destination Wedding" Value="Destination Wedding" NavigateUrl="~/dest.aspx">
+                                        <asp:MenuItem Text="Beach Wedding" Value="Beach Wedding" NavigateUrl="~/Beach.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Royal Wedding" Value="Royal Wedding" NavigateUrl="~/Royal.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Contact Us" Value="Contact Us">
+                                        <asp:MenuItem Text="Suggestion" Value="Suggestion" NavigateUrl="~/suggestion.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+                <table style="z-index: 103; left: 355px; width: 817px; position: absolute; top: 29px;
+                    height: 116px">
+                    <tr>
+                        <td rowspan="2" style="width: 100px; height: 21px"><marquee style="width: 810px; z-index: 100; left: 4px; position: absolute; top: 0px;" behavior="alternate"><IMG 
+      style="WIDTH: 150px" height=110 alt="aaa" 
+      src="Images/BALIKA VADHU SEP22.jpg" /> <IMG height=110 alt="aaa" 
+      src="Images/jhuladhol.jpg" width=160 /> <IMG style="WIDTH: 150px; HEIGHT: 110px" 
+      alt="aaa" src="Images/a2.gif" />&nbsp; <IMG style="WIDTH: 129px" 
+      height=110 alt="aaa" src="Images/MehendiCeremony_13249.jpg" />&nbsp; <IMG 
+      style="WIDTH: 153px" height=110 alt="aaa" src="Images/sapnatravel1.jpg" /> 
+      <IMG style="WIDTH: 153px" height=110 alt="aaa" 
+      src="Images/RojaRajWed2008_02.jpg" /> <IMG height=110 alt="aaa" 
+      src="Images/wedding-rings.jpg" width=160 /> <IMG height=110 alt="aaa" 
+      src="Images/henna.jpg" width=160 /></marquee>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp;<table style="width: 1181px; height: 36px">
+                <tr>
+                    <td style="width: 100px; height: 20px">
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="27px" ImageUrl="~/images/line.JPG"
+                Style="z-index: 104; left: 4px; background-image: url(images/line.JPG); position: absolute;
+                top: 1049px" Width="1171px" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <div style="z-index: 108; left: 226px; width: 949px; position: absolute; top: 202px;
+                height: 209px">
+                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                    &nbsp;</asp:contentplaceholder>
+            </div>
+        </div>
+        &nbsp;
+        <asp:LinkButton ID="LinkButton5" runat="server" Font-Bold="True" Font-Italic="True"
+            Font-Names="Estrangelo Edessa" Font-Size="Large" ForeColor="Maroon" PostBackUrl="~/makeup.aspx"
+            Style="z-index: 102; left: 56px; position: absolute; top: 558px">Wedding Beauty</asp:LinkButton>
+    </div>
+    </center>
+    </form>
+    
+</body>
+</html>
